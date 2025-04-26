@@ -1,0 +1,9 @@
+#ignore create data files 
+data/analyse_ergebnis.geojson
+data/analyse_ergebnis_combined.geojson
+data/calendar.txt
+data/gemeinden_simplify200.geojson
+data/routes.txt
+data/stop_times.txt
+data/stops.txt
+data/trips.txt

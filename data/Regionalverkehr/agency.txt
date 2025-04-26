@@ -1,0 +1,136 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang
+1,Touristische Bahnen (diverse),https://www.bahn.de,Europe/Berlin,de
+10,SÜWEX,https://www.bahn.de,Europe/Berlin,de
+100,DB Regio AG Mitte Region Südwest,https://www.bahn.de,Europe/Berlin,de
+101,Rurtalbahn,https://www.bahn.de,Europe/Berlin,de
+102,Sächsisch-Oberlausitzer Eisenbahngesellschaft,https://www.bahn.de,Europe/Berlin,de
+103,Erfurter Bahn Express,https://www.bahn.de,Europe/Berlin,de
+104,Montafoner Bahn,https://www.bahn.de,Europe/Berlin,de
+105,DB Regio AG NRW,https://www.bahn.de,Europe/Berlin,de
+106,SDG Sächsische Dampfeisenbahngesellschaft mbH,https://www.bahn.de,Europe/Berlin,de
+107,Regiobus Potsdam Mittelmark GmbH,https://www.bahn.de,Europe/Berlin,de
+108,DB Regio AG Nord,https://www.bahn.de,Europe/Berlin,de
+109,WESTbahn,https://www.bahn.de,Europe/Berlin,de
+11,DB Fernverkehr (Codesharing),https://www.bahn.de,Europe/Berlin,de
+110,SBB GmbH,https://www.bahn.de,Europe/Berlin,de
+111,DB Regio AG Bayern,https://www.bahn.de,Europe/Berlin,de
+112,Go-Ahead Baden-Württemberg GmbH,https://www.bahn.de,Europe/Berlin,de
+113,NEB Niederbarnimer Eisenbahn,https://www.bahn.de,Europe/Berlin,de
+114,Länderbahn CZ,https://www.bahn.de,Europe/Berlin,de
+115,Harzer Schmalspurbahn,https://www.bahn.de,Europe/Berlin,de
+116,Mitteldeutsche Regiobahn,https://www.bahn.de,Europe/Berlin,de
+117,Brohltalbahn,https://www.bahn.de,Europe/Berlin,de
+118,VIAS GmbH,https://www.bahn.de,Europe/Berlin,de
+119,DB Fernverkehr AG,https://www.bahn.de,Europe/Berlin,de
+12,Süd-Thüringen-Bahn Express,https://www.bahn.de,Europe/Berlin,de
+120,VIAS Rail GmbH,https://www.bahn.de,Europe/Berlin,de
+121,DB RegioNetz Verkehrs GmbH Kurhessenbahn,https://www.bahn.de,Europe/Berlin,de
+122,Erfurter Bahn,https://www.bahn.de,Europe/Berlin,de
+123,Gesellschaft zur Förderung des ÖPNV Regensburg,https://www.bahn.de,Europe/Berlin,de
+124,Go-Ahead,https://www.bahn.de,Europe/Berlin,de
+125,TRI Train Rental GmbH,https://www.bahn.de,Europe/Berlin,de
+126,City-Bahn Chemnitz,https://www.bahn.de,Europe/Berlin,de
+127,BayernBahn Betriebs-GmbH,https://www.bahn.de,Europe/Berlin,de
+128,vlexx,https://www.bahn.de,Europe/Berlin,de
+129,DB RegioNetz Verkehrs GmbH Westfrankenbahn,https://www.bahn.de,Europe/Berlin,de
+13,SNCF,https://www.bahn.de,Europe/Berlin,de
+130,Nebenbahn Gaildorf-Untergröningen,https://www.bahn.de,Europe/Berlin,de
+131,DB ZugBus Regionalverkehr Alb-Bodensee,https://www.bahn.de,Europe/Berlin,de
+132,Daadetalbahn,https://www.bahn.de,Europe/Berlin,de
+133,Bodensee-Oberschwaben-Verkehrsverbund,https://www.bahn.de,Europe/Berlin,de
+134,trilex-express - Die Länderbahn GmbH DLB,https://www.bahn.de,Europe/Berlin,de
+135,RV Start Deutschland GmbH Niedersachsen-Mitte,https://www.bahn.de,Europe/Berlin,de
+14,vogtlandbahn - Die Länderbahn GmbH DLB,https://www.bahn.de,Europe/Berlin,de
+15,800151 DB Regio AG Nordost,https://www.bahn.de,Europe/Berlin,de
+16,Ostdeutsche Eisenbahn GmbH,https://www.bahn.de,Europe/Berlin,de
+17,REGIOBAHN,https://www.bahn.de,Europe/Berlin,de
+18,Neckar-Donau,https://www.bahn.de,Europe/Berlin,de
+19,Ostwestfalen-Lippe,https://www.bahn.de,Europe/Berlin,de
+2,RV Start Deutschland GmbH Unterelbe,https://www.bahn.de,Europe/Berlin,de
+20,KVG M,https://www.bahn.de,Europe/Berlin,de
+21,trilex - Die Länderbahn GmbH DLB,https://www.bahn.de,Europe/Berlin,de
+22,Bentheimer Eisenbahn,https://www.bahn.de,Europe/Berlin,de
+23,Harzer Schmalspurbahnen,https://www.hsb.de/,Europe/Berlin,de
+24,oberpfalzbahn - Die Länderbahn GmbH DLB,https://www.bahn.de,Europe/Berlin,de
+25,Albtal-Verkehrs-Gesellschaft,https://www.bahn.de,Europe/Berlin,de
+26,erixx,https://www.bahn.de,Europe/Berlin,de
+27,MittelrheinBahn (Trans Regio),https://www.bahn.de,Europe/Berlin,de
+28,alex - Die Länderbahn GmbH DLB,https://www.bahn.de,Europe/Berlin,de
+29,S Bahn Berlin GmbH,https://www.bahn.de,Europe/Berlin,de
+3,Cargo Logistik Rail Service,https://www.bahn.de,Europe/Berlin,de
+30,ZVON Oberlausitz-Niederschlesien,https://www.bahn.de,Europe/Berlin,de
+31,ABELLO Rail Mitteldeutschland GmbH,https://www.bahn.de,Europe/Berlin,de
+32,Märkische VG,https://www.bahn.de,Europe/Berlin,de
+33,SNCB,https://www.bahn.de,Europe/Berlin,de
+34,National Express,https://www.bahn.de,Europe/Berlin,de
+35,CFL,https://www.bahn.de,Europe/Berlin,de
+36,Berchtesgadener Land Bahn,https://www.bahn.de,Europe/Berlin,de
+37,ÖBB,https://www.bahn.de,Europe/Berlin,de
+38,GmbH,https://www.bahn.de,Europe/Berlin,de
+39,THURBO,https://www.bahn.de,Europe/Berlin,de
+4,Hessische Landesbahn,https://www.bahn.de,Europe/Berlin,de
+40,HZZP,https://www.bahn.de,Europe/Berlin,de
+41,Verkehrsverbund Oberelbe,https://www.bahn.de,Europe/Berlin,de
+42,MAV,https://www.bahn.de,Europe/Berlin,de
+43,S-Bahn Hamburg,https://www.bahn.de,Europe/Berlin,de
+44,Parkeisenbahnen,https://www.bahn.de,Europe/Berlin,de
+45,Flixtrain,https://www.bahn.de,Europe/Berlin,de
+46,PKP Intercity,https://www.bahn.de,Europe/Berlin,de
+47,DB Regio AG Südost,https://www.bahn.de,Europe/Berlin,de
+48,Oberhavel Verkehrsgesellschaft,https://www.bahn.de,Europe/Berlin,de
+49,Trenitalia,https://www.bahn.de,Europe/Berlin,de
+5,prignitzbus,https://www.bahn.de,Europe/Berlin,de
+50,Bodensee-Oberschwaben-Bahn,https://www.bahn.de,Europe/Berlin,de
+51,AKN Eisenbahn AG,https://www.bahn.de,Europe/Berlin,de
+52,ABELLIO Rail Mitteldeutschland GmbH,https://www.bahn.de,Europe/Berlin,de
+53,DB Regio Mitte,https://www.bahn.de,Europe/Berlin,de
+54,DB Regio AG Mitte Region Hessen,https://www.bahn.de,Europe/Berlin,de
+55,Kasbachtalbahn,https://www.bahn.de,Europe/Berlin,de
+56,WestfalenBahn,https://www.bahn.de,Europe/Berlin,de
+57,GYRE Go-Ahead Bayern GmbH,https://www.bahn.de,Europe/Berlin,de
+58,DB RegioNetz Verkehrs GmbH Südostbayernbahn,https://www.bahn.de,Europe/Berlin,de
+59,Bayerische Regiobahn,https://www.bahn.de,Europe/Berlin,de
+6,Verkehrsverbund Stuttgart,https://www.bahn.de,Europe/Berlin,de
+60,Norddeutsche Eisenbahn Gesellschaft,https://www.bahn.de,Europe/Berlin,de
+61,SNCF Voyages Deutschland,https://www.bahn.de,Europe/Berlin,de
+62,Verkehrsverbund Rhein-Sieg,https://www.bahn.de,Europe/Berlin,de
+63,Freiberger Eisenbahngesellschaft,https://www.bahn.de,Europe/Berlin,de
+64,DB Regio AG Baden-Württemberg,https://www.bahn.de,Europe/Berlin,de
+65,SBB,https://www.bahn.de,Europe/Berlin,de
+66,DB Regio AG Nordost,https://www.bahn.de,Europe/Berlin,de
+67,Dessauer Verkehrsgesellschaft,https://www.bahn.de,Europe/Berlin,de
+68,Dessau-Wörlitzer Eisenbahn,https://www.bahn.de,Europe/Berlin,de
+69,Karlsruher Verkehrsverbund,https://www.bahn.de,Europe/Berlin,de
+7,Nahreisezug,https://www.bahn.de,Europe/Berlin,de
+70,DB RegioNetz Verkehrs GmbH Oberweisbacher Berg+Schwa,https://www.bahn.de,Europe/Berlin,de
+71,Bayerische Oberlandbahn,https://www.bahn.de,Europe/Berlin,de
+72,metronom,https://www.bahn.de,Europe/Berlin,de
+73,Havelbus Verkehrsgesellschaft mb,https://www.bahn.de,Europe/Berlin,de
+74,RV Start Deutschland GmbH Taunus,https://www.bahn.de,Europe/Berlin,de
+75,DB RegioNetz Verkehrs GmbH Erzgebirgsbahn,https://www.bahn.de,Europe/Berlin,de
+76,mobus,https://www.mo-bus.de,Europe/Berlin,de
+77,Schwäbische Alb-Bahn,https://www.bahn.de,Europe/Berlin,de
+78,NordWestBahn,https://www.bahn.de,Europe/Berlin,de
+79,Hanseatische Eisenbahn GmbH,https://www.bahn.de,Europe/Berlin,de
+8,Rhenus Veniro,https://www.bahn.de,Europe/Berlin,de
+80,agilis,https://www.bahn.de,Europe/Berlin,de
+81,SWEG Bahn Stuttgart,https://www.bahn.de,Europe/Berlin,de
+82,Süd-Thüringen-Bahn,https://www.bahn.de,Europe/Berlin,de
+83,S-Bahn Hannover,https://www.bahn.de,Europe/Berlin,de
+84,Ceske Drahy,https://www.bahn.de,Europe/Berlin,de
+85,AUTOZUG Sylt,https://www.bahn.de,Europe/Berlin,de
+86,RheinRuhrBahn,https://www.bahn.de,Europe/Berlin,de
+87,Mecklenburgische Bäderbahn Molli,https://www.bahn.de,Europe/Berlin,de
+88,EVB ELBE-WESER GmbH,https://www.bahn.de,Europe/Berlin,de
+89,Südwestdeutsche Verkehrs-AG,https://www.bahn.de,Europe/Berlin,de
+9,Bayerische Zugspitzbahn,https://www.bahn.de,Europe/Berlin,de
+90,GYRB Go-Ahead Bayern GmbH,https://www.bahn.de,Europe/Berlin,de
+91,cantus Verkehrsgesellschaft,https://www.bahn.de,Europe/Berlin,de
+92,RV Start Deutschland GmbH Mitteldeutschland,https://www.bahn.de,Europe/Berlin,de
+93,eurobahn,https://www.bahn.de,Europe/Berlin,de
+94,waldbahn - Die Länderbahn GmbH DLB,https://www.bahn.de,Europe/Berlin,de
+95,Pressnitztalbahn,https://www.bahn.de,Europe/Berlin,de
+96,enno,https://www.bahn.de,Europe/Berlin,de
+97,Meridian,https://www.bahn.de,Europe/Berlin,de
+98,Nordbahn Eisenbahngesellschaft,https://www.bahn.de,Europe/Berlin,de
+99,agilis-Schnellzug,https://www.bahn.de,Europe/Berlin,de
