@@ -3,6 +3,7 @@ import pandas as pd
 from shapely.geometry import Point
 from scipy.spatial import cKDTree
 import os
+from datetime import timedelta
 
 # Setze den Datenpfad
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -71,10 +72,33 @@ stop_times_ids = set(stop_times['stop_id'])
 fehlende_ids = stops_ids - stop_times_ids
 print("Stop-IDs, die in stop_times.txt fehlen:", fehlende_ids)
 
-# 2. Berechnung der Haltefrequenz pro Bahnhof
-haltefrequenz = stop_times.groupby("stop_id").size().reset_index(name="halte_pro_tag")
-# Merge: Bahnhofs-GeoDataFrame um die berechnete Haltefrequenz ergänzen
-bahnhoefe = bahnhoefe.merge(haltefrequenz, on="stop_id", how="left").fillna(0)
+# 2. Berechnung der durchschnittlichen Haltefrequenz pro Tag je Bahnhof
+tage = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
+
+# Wochentage als Integer-Spalten
+calendar[tage] = calendar[tage].fillna(0).astype(int)
+
+# Zähle, an wie vielen Wochentagen der Dienst aktiv ist
+calendar['fahrtage_pro_woche'] = calendar[tage].sum(axis=1)
+
+# Verknüpfe trips mit Fahrtagen pro Woche
+trips = trips.merge(calendar[['service_id', 'fahrtage_pro_woche']], on='service_id', how='left')
+
+# Verknüpfe stop_times mit Fahrtagen pro Woche
+stop_times = stop_times.merge(trips[['trip_id', 'fahrtage_pro_woche']], on='trip_id', how='left')
+
+# Entferne Duplikate: gleiche trip_id, stop_id und Ankunftszeit
+stop_times_unique = stop_times.drop_duplicates(subset=['trip_id', 'stop_id', 'arrival_time'])
+
+# Berechne Halte pro Woche je stop_id
+haltefrequenz = stop_times_unique.groupby('stop_id')['fahrtage_pro_woche'].sum().reset_index()
+
+# Rechne auf durchschnittliche Halte pro Tag um
+haltefrequenz['halte_pro_tag'] = (haltefrequenz['fahrtage_pro_woche'] / 7).round(2)
+
+# Mergen mit GeoDaten der Bahnhöfe
+bahnhoefe = bahnhoefe.merge(haltefrequenz[['stop_id', 'halte_pro_tag']], on='stop_id', how='left')
+bahnhoefe['halte_pro_tag'] = bahnhoefe['halte_pro_tag'].fillna(0)
 
 # Debugging: Überprüfe, ob Stop-IDs korrekt gemappt wurden
 print("Verteilung der Haltefrequenz:")
@@ -98,11 +122,11 @@ print(gemeinden_gdf[["distanz_km", "haltefrequenz"]].head(20))
 
 # 4. Klassifikation der Anbindung
 def klassifiziere_anbindung(dist, halte):
-    if dist < 5 and halte > 50:
+    if dist <= 3 and halte >= 72: # alle 15 min fährt ein Zug zwischen 6 Uhr und 0 Uhr (4*18)
         return "sehr gut"
-    elif dist < 15 and halte > 20:
+    elif dist <= 8 and halte >= 36: # alle 30 min fährt ein Zug zwischen 6 Uhr und 0 Uhr (2*18)
         return "gut"
-    elif dist < 30 and halte > 5:
+    elif dist <= 12 and halte >= 18: # alle 60 min fährt ein Zug zwischen 6 Uhr und 0 Uhr (1*18)
         return "mäßig"
     else:
         return "schlecht"

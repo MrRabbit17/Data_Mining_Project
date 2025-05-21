@@ -20,7 +20,8 @@ def main():
 
         # Sicherstellen, dass die Spalte 'anbindung' in der gewünschten Reihenfolge vorliegt
         # Wir definieren sie als kategorischen Datentyp
-        anbindung_order = ["sehr gut", "gut", "mäßig", "schlecht"]
+        #anbindung_order = ["sehr gut", "gut", "mäßig", "schlecht"]
+        anbindung_order = ["schlecht","mäßig","gut","sehr gut"]
         gemeinde_gdf["anbindung"] = pd.Categorical(gemeinde_gdf["anbindung"],
                                                    categories=anbindung_order,
                                                    ordered=True)
@@ -32,6 +33,7 @@ def main():
             lon=gemeinde_gdf.geometry.x,
             title="Klassifizierung des Anschlusses aller Gemeinden an das Bahnnetz des Fern- und Regionalverkehrs der Deutschen Bahn",
             color="anbindung",
+            category_orders={"anbindung": anbindung_order},
             color_discrete_map={
                 "sehr gut": "green",
                 "gut": "lightgreen",
